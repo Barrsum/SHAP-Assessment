@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Outfit", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-body bg-[#f4f0ea] text-[#111] antialiased min-h-screen overflow-x-hidden;
+  }
+  
+  h1, h2, h3, .font-display {
+    @apply font-display;
+  }
+}
+
+.bg-dots {
+  background-image: radial-gradient(#111 2px, transparent 2px);
+  background-size: 24px 24px;
+  opacity: 0.08;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+}
+
+@layer utilities {
+  .neo-border {
+    border: 3px solid #111;
+  }
+  .neo-shadow {
+    box-shadow: 8px 8px 0px 0px #111;
+  }
+  .neo-shadow-sm {
+    box-shadow: 4px 4px 0px 0px #111;
+  }
+  .neo-panel {
+    @apply bg-white rounded-2xl;
+    border: 3px solid #111;
+    box-shadow: 8px 8px 0px 0px #111;
+  }
+  .neo-btn {
+    @apply rounded-xl font-display font-bold uppercase tracking-wide transition-all active:translate-x-[4px] active:translate-y-[4px] active:shadow-none;
+    border: 3px solid #111;
+    box-shadow: 4px 4px 0px 0px #111;
+  }
+}
+
+/* Custom scrollbar for neo-brutalist look */
+::-webkit-scrollbar {
+  width: 12px;
+  border-left: 3px solid #111;
+}
+::-webkit-scrollbar-track {
+  background: #f4f0ea;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF90E8;
+  border: 3px solid #111;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFD800;
+}
