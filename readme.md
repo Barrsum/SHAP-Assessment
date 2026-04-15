@@ -4,7 +4,7 @@
 
 **Day 15 / 30 - April Vibe Coding Challenge**
 
-## Live Demo on Vercel - [Demo](https://ink-and-error-hangman.vercel.app/)
+## Live Demo on Vercel - [Demo](https://shap-assessment.vercel.app/)
 
 **S.H.A.P.** (Standardized Human Assessment Protocol) is a highly scientific, completely infallible, and utterly absurd personality test. It asks the hard questions (like how many toddlers you could fight in zero gravity) to give you the answers you never knew you needed.
 
