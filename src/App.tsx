@@ -95,7 +95,7 @@ export default function App() {
           </div>
           <div className="flex flex-col items-center sm:items-start">
             <h1 className="text-xl sm:text-2xl font-display font-bold tracking-tight text-black uppercase">S.H.A.P. | Made By Ram Bapat</h1>
-            <span className="text-[10px] font-bold tracking-widest text-black/70 uppercase">100% Accurate* /span>
+            <span className="text-[10px] font-bold tracking-widest text-black/70 uppercase">100% Accurate*</span>
           </div>
         </div>
         <div className="flex items-center gap-4">
@@ -130,7 +130,7 @@ export default function App() {
                 Discover Your <br/><span className="text-[#FF2A85]">True Self</span>
               </h2>
               <h2 className="text-3xl sm:text-5xl font-display font-bold mb-4 uppercase leading-tight">
-                - By <span className="text-[#FF2A85]">Ram Bapat -</span>
+                - By Ram<span className="text-[#FF2A85]"> Bapat -</span>
               </h2>
               <p className="text-gray-700 font-medium mb-8 max-w-md mx-auto text-lg">
                 The most scientifically inaccurate personality test on the internet. Results may cause mild confusion.
